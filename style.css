@@ -1041,3 +1041,22 @@ h4 {
         text-align: center;
     }
 }
+
+/* Ajout de la taille des images */
+.image-resize-mode{
+    width: 100px;
+    height: 100px;
+}
+.navbar-img{
+    height: 40px;
+    width: 100px;
+}
+.portfolio-thumb{
+    width: 100%;
+    object-fit: cover;
+}
+@media (max-width: 770px) {
+    .portfolio-thumb{
+        height: 400px;
+    }
+}
