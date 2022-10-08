@@ -28,7 +28,7 @@
 	<script src="./js/blocs.min.js" defer></script>
 	<script src="./js/jqBootstrapValidation.js" defer></script>
 	<script src="./js/formHandler.js" defer></script>
-    <title>page2</title>
+    <title>Contact</title>
 
     
 <!-- Analytics -->
@@ -45,7 +45,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="atlanta web design logo" class="navbar-img" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Logo de l'agence La Panthère basée sur Lyon" class="navbar-img" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -56,9 +56,6 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
 					</li>
 				</ul>
 			</div>
@@ -90,7 +87,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<!--spécification du label de formulaire-->
 						<label for="name">
@@ -107,10 +104,10 @@
 					</div>
 					<div class="form-group">
 						<!--spécification du label de formulaire-->
-						<label for="input_504">
+						<label for="question">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="email" required id="question" />
 					</div>
 					<div class="form-group">
 						<!--spécification du label de formulaire-->
@@ -135,7 +132,7 @@
 
 <!-- ScrollToTop Button -->
 <!-- Ajout d'un href -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" href="#bloc-0"><span class="fa fa-chevron-up"></span></a>
+<a class="bloc-button btn btn-d scrollToTop" aria-label="Redirection au début de la page" onclick="scrollToTarget('1')" href="#bloc-0"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
@@ -144,7 +141,7 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center">
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
